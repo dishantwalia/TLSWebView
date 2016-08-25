@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TLSWebView</string>
+
+    <string name="go_to_the_web_site">Go to the web site</string>
+    <string name="default_website">https://www.google.pl/</string>
+    <!--<string name="default_website">https://book.lot.com/</string>-->
+    <string name="information">Information</string>
+    <string name="no_network">There is no network connection</string>
+    <string name="wrong_url">Given url is not valid</string>
+    <string name="ok">Ok</string>
+    <string name="oh_no">Oh no!\n</string>
+</resources>
