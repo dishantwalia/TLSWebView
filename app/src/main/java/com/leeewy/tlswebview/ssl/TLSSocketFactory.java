@@ -1,4 +1,4 @@
-package com.leeewy.sslwebview.ssl;
+package com.leeewy.tlswebview.ssl;
 
 import android.util.Log;
 
@@ -24,8 +24,7 @@ public class TLSSocketFactory extends SSLSocketFactory {
     private SSLSocketFactory internalSSLSocketFactory;
 
     public TLSSocketFactory() {
-        SSLContext context = getSslContext();
-        internalSSLSocketFactory = context.getSocketFactory();
+        internalSSLSocketFactory = getSslContext().getSocketFactory();
     }
 
     @Override
@@ -91,7 +90,7 @@ public class TLSSocketFactory extends SSLSocketFactory {
             sslContext.init(null, null, null);
             return sslContext;
         } catch (Exception ex) {
-            Log.e(TAG, "Problem while gettinh SslContext", ex);
+            Log.e(TAG, "Problem while getting SslContext", ex);
             throw new RuntimeException(ex);
         }
     }

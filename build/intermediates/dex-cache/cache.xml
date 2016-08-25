@@ -1,3 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="ee07df949171ec9fb15ffa1081d3c7d99f63c7b5">
+        <dex dex="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_d612bb748beb58b19b7ac274a7b470bb91bb1d04.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.0_5e290f97d3eb1ba6a550bddf53cd226800c9ae44.jar" />
+    </item>
+    <item
+        jar="C:\Users\dawid\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.0\8873bd0bb5cb9ee37f1b04578eb7e26fcdd44cb0\commons-lang3-3.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="8873bd0bb5cb9ee37f1b04578eb7e26fcdd44cb0">
+        <dex dex="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\pre-dexed\debug\commons-lang3-3.0_68a41ff0a0cf42e77ac6c293c6b599b706f2efb9.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_619db74d7bd78c60231d87ea1ca0ee379541f17e.jar" />
+    </item>
+    <item
+        jar="C:\Users\dawid\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\pre-dexed\debug\okhttp-3.4.1_281fdccecdd8a135c1bd3dde5a05834a05dc254d.jar" />
+    </item>
+    <item
+        jar="C:\Users\dawid\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\pre-dexed\debug\okio-1.9.0_57d15d03882b460e6a8b70136984d345a4a1060f.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.0_e05a8c641767575e64a954c34ee7a714d18454a3.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_a25712720563db195037c638bb6220f4668ba684.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.0_2753eb3f8e59f430444ad6ace1083f623fefe36e.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.0_c894211fe30f886d065c57430784f546c32766c8.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_ce256d331c1a0f5f61b0ffdf758306587535e74f.jar" />
+    </item>
+    <item
+        jar="C:\Users\dawid\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.0_ecf338c70dc81f30649146ff49d55bf40c18956a.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_e099a41c25334c6331fc20580704e8cbd8e1cc07.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.0_d51e85e06f1cbba77fc19dbf0bcf5b893be8514f.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_d7245b871d257e2e9eb21d86d5f182d04d30ba2a.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.0_ca462247ce767b4f8ef6d8d9ea8358311c4822ac.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.0_e691633d77b3be59572dba1dc1325aae1dbf8e4e.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.0_787da9b9e088ad059f24ce2560df8057632abcac.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.0_7360494c869b760a333fd60c774e17676b6ca09c.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="195575fc00a0cecafcfabe85cd50986709a42a82">
+        <dex dex="D:\Workspaces\TLSWebView\TLSWebView\app\build\intermediates\pre-dexed\debug\instant-run_b2f767a0108a115174365c7a18fd859aa2cadda7.jar" />
+    </item>
+
+</items>

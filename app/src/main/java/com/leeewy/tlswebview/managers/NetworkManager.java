@@ -1,4 +1,4 @@
-package com.leeewy.sslwebview.managers;
+package com.leeewy.tlswebview.managers;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

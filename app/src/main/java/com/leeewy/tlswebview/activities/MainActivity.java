@@ -1,4 +1,4 @@
-package com.leeewy.sslwebview.activities;
+package com.leeewy.tlswebview.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -11,11 +11,11 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 
-import com.leeewy.sslwebview.R;
-import com.leeewy.sslwebview.fragments.MessageDialogFragment;
-import com.leeewy.sslwebview.managers.KeyboardManager;
-import com.leeewy.sslwebview.managers.NetworkManager;
-import com.leeewy.sslwebview.ssl.TLSSocketFactory;
+import com.leeewy.tlswebview.R;
+import com.leeewy.tlswebview.fragments.MessageDialogFragment;
+import com.leeewy.tlswebview.managers.KeyboardManager;
+import com.leeewy.tlswebview.managers.NetworkManager;
+import com.leeewy.tlswebview.ssl.TLSSocketFactory;
 
 import org.apache.commons.lang3.StringUtils;
 

@@ -1,4 +1,4 @@
-package com.leeewy.sslwebview.fragments;
+package com.leeewy.tlswebview.fragments;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -6,7 +6,7 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 
-import com.leeewy.sslwebview.R;
+import com.leeewy.tlswebview.R;
 
 /**
  * Created by dlewsza on 2016-08-25.
