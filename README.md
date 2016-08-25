@@ -31,7 +31,7 @@ private WebViewClient buildClient() {
 }
 ```
     
-The most important thing is to build OkHttpClient with your own SocketFacotry. Here you can see all code from TLSSocketFatory class:
+The most important thing is to build OkHttpClient with your own SocketFactory. Here you can see all code from TLSSocketFatory class:
     
  ```java
 public class TLSSocketFactory extends SSLSocketFactory {
