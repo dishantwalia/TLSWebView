@@ -2,6 +2,7 @@ package com.leeewy.tlswebview.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.webkit.WebChromeClient;
 import android.webkit.WebResourceResponse;
@@ -27,8 +28,14 @@ import okhttp3.Response;
 
 public class MainActivity extends AppCompatActivity {
 
-    private final String HTTP = "http://";
-    private final String HTTPS = "https://";
+    private static final String TAG = "MainActivity";
+
+    private static final String HTTP = "http://";
+    private static final String HTTPS = "https://";
+    private static final String CSS_FILE = ".css";
+    private static final String JS_FILE = ".js";
+    private static final String CSS_DIR = "/css/";
+    private static final String JS_DIR = "/js/";
 
     private WebView webView;
     private ImageView button;
@@ -65,14 +72,21 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public WebResourceResponse shouldInterceptRequest(WebView view, String url) {
-                Request okHttpRequest = new Request.Builder().url(url).header("User-Agent", "OkHttp Example").build();
-                try {
-                    Response response = okHttp.newCall(okHttpRequest).execute();
-                    return new WebResourceResponse("text/html", "UTF-8", response.body().byteStream());
-                } catch (IOException e) {
-                    e.printStackTrace();
+                Log.e(TAG, "URL -> " + url);
+
+                if (url.contains(CSS_FILE) || url.contains(JS_FILE) || url.contains(CSS_DIR) || url.contains(JS_DIR)) {
+                    Log.e(TAG, "Css or js -> default interceptor");
+                    return super.shouldInterceptRequest(view, url);
+                } else {
+                    Request okHttpRequest = new Request.Builder().url(url).header("User-Agent", "OkHttp Example").build();
+                    try {
+                        Response response = okHttp.newCall(okHttpRequest).execute();
+                        return new WebResourceResponse("text/html", "UTF-8", response.body().byteStream());
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    return null;
                 }
-                return null;
             }
 
             public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
